@@ -1,0 +1,27 @@
+{
+  "name": "jest-unit-testing-and-integration-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonardosuave/JEST-unit-testing-and-integration-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leonardosuave/JEST-unit-testing-and-integration-tests/issues"
+  },
+  "homepage": "https://github.com/leonardosuave/JEST-unit-testing-and-integration-tests#readme",
+  "devDependencies": {
+    "eslint": "^8.34.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "jest": "28.1.0"
+  },
+  "type": "module"
+}
