@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1676416403366" clover="3.2.0">
-  <project timestamp="1676416403367" name="All files">
-    <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2" elements="4" coveredelements="4" complexity="0" loc="2" ncloc="2" packages="1" files="1" classes="1"/>
-    <file name="index.js" path="C:\Users\Tunts\Documents\Estudos\JEST-unit-testing-and-integration-tests\index.js">
+<coverage generated="1676674093112" clover="3.2.0">
+  <project timestamp="1676674093112" name="All files">
+    <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4" elements="10" coveredelements="10" complexity="0" loc="6" ncloc="6" packages="2" files="2" classes="2"/>
+    <package name="JEST-unit-testing-and-integration-tests">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-      <line num="1" count="1" type="stmt"/>
-      <line num="3" count="1" type="stmt"/>
-    </file>
+      <file name="index.js" path="C:\Users\Tunts\Documents\Estudos\JEST-unit-testing-and-integration-tests\index.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="JEST-unit-testing-and-integration-tests.carrinho">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="item.js" path="C:\Users\Tunts\Documents\Estudos\JEST-unit-testing-and-integration-tests\carrinho\item.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>
