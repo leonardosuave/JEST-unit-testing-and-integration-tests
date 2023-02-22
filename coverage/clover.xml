@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1676674093112" clover="3.2.0">
-  <project timestamp="1676674093112" name="All files">
-    <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4" elements="10" coveredelements="10" complexity="0" loc="6" ncloc="6" packages="2" files="2" classes="2"/>
+<coverage generated="1677094758625" clover="3.2.0">
+  <project timestamp="1677094758625" name="All files">
+    <metrics statements="18" coveredstatements="18" conditionals="2" coveredconditionals="2" methods="10" coveredmethods="10" elements="30" coveredelements="30" complexity="0" loc="18" ncloc="18" packages="2" files="3" classes="3"/>
     <package name="JEST-unit-testing-and-integration-tests">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <file name="index.js" path="C:\Users\Tunts\Documents\Estudos\JEST-unit-testing-and-integration-tests\index.js">
@@ -11,13 +11,28 @@
       </file>
     </package>
     <package name="JEST-unit-testing-and-integration-tests.carrinho">
-      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <metrics statements="16" coveredstatements="16" conditionals="2" coveredconditionals="2" methods="8" coveredmethods="8"/>
+      <file name="carrinho.js" path="C:\Users\Tunts\Documents\Estudos\JEST-unit-testing-and-integration-tests\carrinho\carrinho.js">
+        <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="6"/>
+        <line num="4" count="5" type="stmt"/>
+        <line num="5" count="5" type="stmt"/>
+        <line num="6" count="5" type="stmt"/>
+        <line num="7" count="5" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="24" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+      </file>
       <file name="item.js" path="C:\Users\Tunts\Documents\Estudos\JEST-unit-testing-and-integration-tests\carrinho\item.js">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="3" count="2" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="5" count="2" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
+        <line num="3" count="5" type="stmt"/>
+        <line num="4" count="5" type="stmt"/>
+        <line num="5" count="5" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
       </file>
     </package>
   </project>

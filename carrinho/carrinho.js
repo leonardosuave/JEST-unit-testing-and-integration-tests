@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 class Carrinho {
   constructor() {
     this.itens = [];
