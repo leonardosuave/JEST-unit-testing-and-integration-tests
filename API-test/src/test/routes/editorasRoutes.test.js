@@ -1,5 +1,6 @@
 import app from '../../app';
 import request from 'supertest';
+import { jest } from '@jest/globals';
 
 let server;
 // beforeEach and afterEach are Hooks to config the server
@@ -85,10 +86,14 @@ describe('PUT in /editoras/id', () => {
         ['cidade',{ cidade: 'Franca'}],
         ['email',{ email: 'leo@leo.com'}],
     ])('Should update %s field', async (chave, param) => {
-        await request(app)
+        const req = { request };
+        const spy = jest.spyOn(req, 'request');
+        await req.request(app)
             .put(`/editoras/${getIdResponse}`)
             .send(param)
-            .expect(204);
+            .expect(204)
+
+        expect(spy).toHaveBeenCalled();    
     });
 });
 
